@@ -1,0 +1,66 @@
+body {
+	background: #FCF8BB;
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	border: 10px solid #FECF7D;
+	border-radius: 20px;
+	margin: auto;
+	min-width: 400px;
+	min-height: 266px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	background-image: url("img/hamster-book.jpg"); 
+	background-size: cover;
+}
+
+@media (min-width: 500px) {
+	.container {
+		min-width: 500px;
+		min-height: 333px;
+	}
+}
+
+@media (min-width: 600px) {
+	.container {
+		width: 600px;
+		height: 400px;
+	}
+}
+
+@media (min-width: 900px) {
+	.container {
+		min-width: 800px;
+		min-height: 533px;
+	}
+}
+
+.btn {
+	background: #FECF7D;
+	color: #986812;
+	border: none;
+	border-radius: 10px;
+	font-size: 1.5rem;
+	padding: .4em .75em;
+}
+
+.btn-left {
+	margin-left: -27px;
+}
+
+.btn-right {
+	margin-right: -29px;
+}
+
+.btn-random {
+	font-size: 1.2rem;
+	padding: .4em .5em;
+	margin: -20px auto auto auto;
+}
+
+
+
